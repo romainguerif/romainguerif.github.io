@@ -9,14 +9,7 @@ pc.script.createLoadingScreen(function (app) {
         var splash = document.createElement('div');
         splash.id = 'application-splash';
         wrapper.appendChild(splash);
-        splash.style.display = 'none';
-
-        var logo = document.createElement('img');
-        logo.src = 'https://www.telma.com/images/Logo-TELMA-couleur-avec-contour.png';
-        splash.appendChild(logo);
-        logo.onload = function () {
-            splash.style.display = 'block';
-        };
+        splash.style.display = 'block';
 
         var container = document.createElement('div');
         container.id = 'progress-bar-container';
@@ -26,6 +19,12 @@ pc.script.createLoadingScreen(function (app) {
         bar.id = 'progress-bar';
         container.appendChild(bar);
 
+        // Wait for all assets to be added before we can get the URL
+        app.once('preload:start', function () {
+            var logo = document.createElement('img');
+            logo.src = app.assets.find('loading-screen.png', 'texture').getFileUrl();
+            splash.insertBefore(logo, container);
+        });
     };
 
     var hideSplash = function () {
@@ -44,7 +43,7 @@ pc.script.createLoadingScreen(function (app) {
     var createCss = function () {
         var css = [
             'body {',
-            '    background-color: #296CAE;',
+            '    background-color: #FFFFFF;',
             '}',
             '',
             '#application-splash-wrapper {',
@@ -106,5 +105,6 @@ pc.script.createLoadingScreen(function (app) {
         app.off('preload:progress');
     });
     app.on('preload:progress', setProgress);
+
     app.on('start', hideSplash);
 });
