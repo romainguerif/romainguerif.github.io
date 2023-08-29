@@ -1,0 +1,45 @@
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "en-EN"
+            },
+            "messages": {
+                "decouvrez": "DISCOVER INDUCTION BRAKING",
+                "cliquersur": "Click on the dots for more details",
+                "t1": "A solution adapted \nto the most severe \napplications",
+                "b1": "The stator of the Focal® range retarders has a \nsurface treatment that improves their resistance \nto corrosion. \nHumidity, water, snow and other factors will no longer \nhave an impact on your retarder.",
+                "t2": "Exclusivity of the Telma \nretarder on the \nZF PowerLine gearbox",
+                "b2": "For design reasons, the only electromagnetic \nretarder available on the ZF PowerLine \ngearbox is the Telma retarder.\nThis exclusivity is the result of close \ncollaboration between ZF and Telma",
+                "t3": "The most compact \ngearbox + retarder solution \non the market",
+                "b3": "The “Telma retarder + ZF PowerLine” solution \nis more compact than the hydraulic solution.\nThis compact design facilitates integration \ninto the vehicle by adapting to the chassis constraints",
+                "t4": "Solution available from \n800 Nm to 2400 Nm",
+                "b4": "The Focal® range offered by Telma delivers \nbraking torques ranging from 800 Nm to 2400 Nm.\nThe extent of its range makes it possible to meet \nthe specific needs of all vehicles from 8t to 26t.",
+                "t5": "Accessibility of the \nPower Take-Off (PTO)",
+                "b5": "The Power Take Off (PTO) of the ZF PowerLine \ngearbox remains accessible with the fitting of the \nTelma retarder.",
+                "t6": "Perfect integration \nof the retarder into the \nelectronic systems linked \nto vehicle braking",
+                "b6": "The iRCS ECU (integrated Retarder Control System) \nis compatible with the CAN BUS networks of vehicles. \nIt allows for perfect integration of the Telma retarder \nin all vehicles equipped with electronic systems \nlinked to braking (ABS, ESP, EBS, Cruise control, \nAutomatic gearbox control…).",
+                "d6sq1": "Optimized braking system performance",
+                "d6sq2": "Quick and precise braking response",
+                "d6sq3": "Improved vehicle safety",
+                "d6sq4": "Preserved friction braking system",
+                "d6sq5": "Reduction of fine particle emissions due to braking",
+                "d5sq1": "Accessible side PTO socket",
+                "d1sq1": "No risk of corrosion",
+                "d1sq2": "More durable and wear resistant",
+                "d1sq3": "Optimal performance",
+                "d1sq4": "Increased reliability",
+                "d1sq5": "Better aesthetic appearance"
+            }
+        },
+        {
+            "info": {
+                "locale": "fr-FR"
+            },
+            "messages": {}
+        }
+    ]
+}
