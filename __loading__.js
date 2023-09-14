@@ -22,7 +22,8 @@ pc.script.createLoadingScreen(function (app) {
         // Wait for all assets to be added before we can get the URL
         app.once('preload:start', function () {
             var logo = document.createElement('img');
-            logo.src = app.assets.find('loading-screen.png', 'texture').getFileUrl();
+            //logo.src = app.assets.find('loading-screen.png', 'texture').getFileUrl();
+            logo.src = app.assets.find('logotelmaold.png', 'texture').getFileUrl();
             splash.insertBefore(logo, container);
         });
     };
