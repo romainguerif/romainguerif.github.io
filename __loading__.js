@@ -22,8 +22,9 @@ pc.script.createLoadingScreen(function (app) {
         // Wait for all assets to be added before we can get the URL
         app.once('preload:start', function () {
             var logo = document.createElement('img');
-            //logo.src = app.assets.find('loading-screen.png', 'texture').getFileUrl();
-            logo.src = app.assets.find('logotelmaold.png', 'texture').getFileUrl();
+            //logo.src = app.assets.find('loading-screen.png', 'texture').getFileUrl(); //borne new
+            // logo.src = app.assets.find('logotelmaold.png', 'texture').getFileUrl(); //borne old
+            logo.src = 'https://www.telma.com/images/Logo-TELMA-couleur-avec-contour.png'; //web
             splash.insertBefore(logo, container);
         });
     };
