@@ -1,0 +1,53 @@
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "en-EN"
+            },
+            "messages": {
+                "decouvrez": "HIB Hybrid Induction Brake",
+                "cliquersur": "VOTRE SOLUTION D'HYBRIDATION",
+                "t1": "IVECO DAILY \nLA RÉFÉRENCE \nDES UTILITAIRES",
+                "b1": "Le Daily évolue pour toujours mieux vous \nservir et s'affirme comme votre meilleur\npartenaire au quotidien.",
+                "t2": "URBAN BY LECAPITAINE\nTAILLÉ POUR LA VILLE, \nTOURNÉ VERS L'AVENIR",
+                "b2": "La nouvelle carrosserie frigorifique URBAN by\nLecapitaine, dédiée aux Véhicules Utilitaires\nLégers (VUL), a été conçue pour répondre aux\ndéfis de la livraison urbaine de demain : limiter\nles émissions de CO₂ et de polluants, garantir \ndes conditions de transport optimales pour vos \nmarchandises sous températures dirigée et \noptimiser votre confort et votre sécurité.",
+                "t3": "POWER BOX",
+                "b3": "La Power Box du HIB est composée \ndu pack batterie et des calculateurs.\nCette Power Box assure de facon optimale :",
+                "t4": "SYSTÈME HYBRIDE \nRECHARGEABLE",
+                "b4": "Le pack batterie est compatible avec\ntout type de prise de recharge.",
+                "t5": "HIB - FONCTION \nRALENTISSEUR",
+                "b5": "Le ralentisseur Telma améliore de façon \nsignificative le niveau de sécurité du véhicule \nen prenant en charge jusqu’à 90% des opérations \nde freinage. \n \nL'avantage du ralentisseur Telma est également \néconomique : \nles véhicules qui en sont équipés peuvent multiplier \njusqu’à dix fois la durée de vie de leur système de \nfreinage de service. \nDe plus, le ralentisseur est progressif et sans-à-coups,\noffrant une grande qualité de conduite et un confort \ninégalé.\nEnfin, de par sa technologie et son principe de \nfonctionnement, le ralentisseur préserve \nl'environnement :\nil ne génère pas d'émissions de particules fines \nlors des phases de freinage. ",
+                "t6": "HIB - FONCTION MOTEUR",
+                "b6": "La fonction moteur permet de soutenir\nl'accélération du véhicule, quelle que soit la vitesse.\nCette fonction moteur permet ainsi de diminuer\nla consommation en carburant et de\nréduire les émissions de CO₂.",
+                "t7": "HIB - FONCTION \nGÉNÉRATRICE",
+                "b7": "La fonction génératrice permet de transformer \nl'énergie de freinage en électricité afin de \ncharger le pack batterie (freinage régénératif).\n\nLe pack batterie ainsi chargé, permet d'alimenter \nle ralentisseur et les fonctions auxiliaires du \nvéhicule : climatisation, groupe frigorifique, \ntoupie à béton, compacteur de déchets, etc. \nCes fonctions auxiliaires n'étant plus alimentées \npar le moteur thermique mais par la batterie du \nHIB, la fonction générateur du HIB permet de \ndiminuer la consommation en carburant et \nde réduire les émissions de CO₂",
+                "d6sq1": "Optimized braking system performance",
+                "d6sq2": "Quick and precise braking response",
+                "d6sq3": "Improved vehicle safety",
+                "d6sq4": "Preserved friction braking system",
+                "d6sq5": "Reduction of fine particle emissions due to braking",
+                "d5sq1": "Accessible side PTO socket",
+                "d3sq1": "le stockage",
+                "d3sq2": "la gestion",
+                "d3sq3": "la distribution d'énergie",
+                "d1sq1": "Performance",
+                "d1sq1bis": "Le meilleur de sa catégorie",
+                "d1sq2": "Polyvalence",
+                "d1sq2bis": "Toujours prêt à évoluer\net suivre votre business",
+                "d1sq3": "Suspension pneumatique adaptative AIR-PRO",
+                "d1sq3bis": "Un confort de conduite unique et de nouvelles \nsuspensions pneumatiques pour plus de sécurité",
+                "d1sq4": "Force et durabilité",
+                "d1sq4bis": "Pour les activités les plus exigeantes"
+            }
+        },
+        {
+            "info": {
+                "locale": "fr-FR"
+            },
+            "messages": {}
+        }
+    ]
+}
